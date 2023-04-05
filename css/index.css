@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maincont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #1D4350;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.allimg {
+  width: 500px;
+  max-width: 90%;
+  height: 400px;
+  border: 3px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.allimg img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.allimg i {
+  font-size: 3rem;
+  color: brown;
+  font-weight: bold;
+}
+#lefttare,
+#rightarr {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  padding: 20px;
+  transform: translateY(-50%);
+}
+
+#lefttare {
+  left: 0%;
+}
+
+#rightarr {
+  right: 0%;
+}
+
+/* #xmark {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+  cursor: pointer;
+} */
